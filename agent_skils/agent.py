@@ -18,7 +18,7 @@ agent_skils = SkillToolset(
     code_executor=UnsafeLocalCodeExecutor()
 )
 
-groq_model = LiteLlm(model="groq/openai/gpt-oss-120b")
+groq_model = LiteLlm(model="qwen/qwen3.8-27b")
 
 root_agent = Agent(
     name="skill_user_agent",
